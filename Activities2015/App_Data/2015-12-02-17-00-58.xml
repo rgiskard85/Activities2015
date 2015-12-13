@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<transfer>
+  <customer>
+    <name>Salvor</name>
+    <surname>Hardin</surname>
+    <address>terminus 54</address>
+    <phone>2340234534</phone>
+  </customer>
+  <order>
+    <chair>
+      <quantity>54</quantity>
+      <price>3.4</price>
+      <weight>5.6</weight>
+    </chair>
+    <table>
+      <quantity>2</quantity>
+      <price>3.5</price>
+      <weight>33.5</weight>
+    </table>
+    <order_date>2015-12-02T17:00:58.9206724+02:00</order_date>
+  </order>
+  <supplier>
+    <supplier_name>Ikea</supplier_name>
+    <supplier_address>fodsf0990</supplier_address>
+  </supplier>
+  <transporter>
+    <transporter_name>Delatolas</transporter_name>
+    <price_per_kilo>5.6</price_per_kilo>
+  </transporter>
+</transfer>

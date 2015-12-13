@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<transfer>
+  <customer>
+    <name>Hober</name>
+    <surname>Mallow</surname>
+    <address>idsadnsd9888fsdfsd</address>
+    <phone>094742347423</phone>
+  </customer>
+  <order>
+    <chair>
+      <quantity>6</quantity>
+      <price>25.5</price>
+      <weight>2.5</weight>
+    </chair>
+    <table>
+      <quantity>3</quantity>
+      <price>55.3</price>
+      <weight>27.6</weight>
+    </table>
+    <order_date>2015-12-02T14:03:00</order_date>
+  </order>
+  <supplier>
+    <supplier_name>Ikea</supplier_name>
+    <supplier_address>sdfsdf907989dsfd</supplier_address>
+  </supplier>
+  <transporter>
+    <transporter_name>Delatolas</transporter_name>
+    <price_per_kilo>2.1</price_per_kilo>
+  </transporter>
+</transfer>

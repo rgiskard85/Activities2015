@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Activities2015.WBFormToXML" CodeBehind="WBFormToXML.svc.cs" %>

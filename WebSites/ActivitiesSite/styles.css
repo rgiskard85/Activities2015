@@ -1,0 +1,15 @@
+﻿body {
+    
+    /*margin: 20px 50px 100px 50px;*/
+}
+
+#customer_form {
+    width:auto;
+}
+
+#Table1 {
+    border-style:solid;
+    border-color: blueviolet;
+    border-width: 2px;
+    margin: 10% 30% 10% 30%;
+}

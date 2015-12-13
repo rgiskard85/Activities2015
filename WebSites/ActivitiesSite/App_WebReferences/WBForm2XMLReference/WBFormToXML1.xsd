@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Activities2015" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Activities2015" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Transfer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="chair_number" type="xs:int" />
+      <xs:element minOccurs="0" name="chair_price" type="xs:decimal" />
+      <xs:element minOccurs="0" name="chair_weight" type="xs:decimal" />
+      <xs:element minOccurs="0" name="customer_address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="customer_name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="customer_phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="customer_surname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="order_date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="price_per_kilo" type="xs:decimal" />
+      <xs:element minOccurs="0" name="supplier_address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="supplier_name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="table_number" type="xs:int" />
+      <xs:element minOccurs="0" name="table_price" type="xs:decimal" />
+      <xs:element minOccurs="0" name="table_weight" type="xs:decimal" />
+      <xs:element minOccurs="0" name="transporter_name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Transfer" nillable="true" type="tns:Transfer" />
+</xs:schema>

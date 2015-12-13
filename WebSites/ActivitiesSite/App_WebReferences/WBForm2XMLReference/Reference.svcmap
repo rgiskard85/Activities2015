@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ce95aaa9-0a46-436b-bc85-0c8364f3ae3c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49522/WBFormToXML.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WBFormToXML.xsd" MetadataType="Schema" ID="2191f561-bcbe-4d59-887b-e4c099b174b2" SourceId="1" SourceUrl="http://localhost:49522/WBFormToXML.svc?xsd=xsd0" />
+    <MetadataFile FileName="WBFormToXML.disco" MetadataType="Disco" ID="f70953a5-f68d-46f7-8d72-da71489b8437" SourceId="1" SourceUrl="http://localhost:49522/WBFormToXML.svc?disco" />
+    <MetadataFile FileName="WBFormToXML1.xsd" MetadataType="Schema" ID="7891e969-a99f-49e4-8030-9a3f85c96b7f" SourceId="1" SourceUrl="http://localhost:49522/WBFormToXML.svc?xsd=xsd2" />
+    <MetadataFile FileName="WBFormToXML.wsdl" MetadataType="Wsdl" ID="e2e200df-89a6-4ccf-bd6b-4a0df27c10d4" SourceId="1" SourceUrl="http://localhost:49522/WBFormToXML.svc?wsdl" />
+    <MetadataFile FileName="WBFormToXML2.xsd" MetadataType="Schema" ID="235b3bc0-cca8-46d4-af23-ad4f20fdc84f" SourceId="1" SourceUrl="http://localhost:49522/WBFormToXML.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
