@@ -9,6 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <asp:Button ID="btnUpdate" runat="server" Text="Update orders from file" OnClick="btnUpdate_Click" />
         <asp:DropDownList ID="ddlOrders" runat="server"></asp:DropDownList>
         <asp:Button ID="btnShow" runat="server" Text="Show" OnClick="btnShow_Click" />
     </div>

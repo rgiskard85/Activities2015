@@ -23,6 +23,7 @@ public partial class AppB : System.Web.UI.Page
         }
         
     }
+
     protected void btnShow_Click(object sender, EventArgs e)
     {
         Dictionary<string, string> order = new Dictionary<string, string>();
@@ -48,5 +49,10 @@ public partial class AppB : System.Web.UI.Page
             }
         }
         
+    }
+
+    protected void btnUpdate_Click(object sender, EventArgs e)
+    {
+        msc.UpdateOrders();
     }
 }
