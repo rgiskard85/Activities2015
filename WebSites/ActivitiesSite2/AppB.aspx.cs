@@ -13,11 +13,15 @@ public partial class AppB : System.Web.UI.Page
     {
         Dictionary<int, string> orders = new Dictionary<int, string>();
         orders = msc.GetOrdersMin();
-        ddlOrders.Items.Add(new ListItem("Select time of order", "0"));
-        foreach (KeyValuePair<int,string> order in orders)
+        if (ddlOrders.Items.Count<1)
         {
-            ddlOrders.Items.Add(new ListItem(order.Value, order.Key.ToString()));
+            ddlOrders.Items.Add(new ListItem("Select time of order", "0"));
+            foreach (KeyValuePair<int,string> order in orders)
+            {
+                ddlOrders.Items.Add(new ListItem(order.Value, order.Key.ToString()));
+            }
         }
+        
     }
     protected void btnShow_Click(object sender, EventArgs e)
     {
